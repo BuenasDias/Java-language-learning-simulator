@@ -24,13 +24,12 @@ public class MainActivity extends AppCompatActivity {
         textQuestion = (TextView) findViewById(R.id.text_question);
         btnGetQuestion = (Button) findViewById(R.id.btn_question);
 
+
         btnGetQuestion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
                 Random random = new Random();
                 textQuestion.setText(patterns.getQuestionPattern[random.nextInt(patterns.getQuestionPattern.length)]);
-
             }
         });
 
