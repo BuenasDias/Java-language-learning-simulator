@@ -1,0 +1,14 @@
+<resources>
+    // Общие
+    <string name="btn_get_question">Выдать задание</string>
+
+    // Паттерны
+    <string name="pattern_factory">Реализуйте паттерн проектирования Factory</string>
+    <string name="pattern_adapter">Реализуйте паттерн проектирования Adapter</string>
+    <string name="pattern_observer">Реализуйте паттерн проектирования Observer</string>
+    <string name="pattern_singleton">Реализуйте паттерн проектирования Singleton</string>
+    <string name="pattern_abstract_factory">Реализуйте паттерн проектирования Observer</string>
+    <string name="text_question">Нажмите на кнопку ниже, чтобы получить задание</string>
+
+
+</resources>
